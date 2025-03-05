@@ -1,3 +1,5 @@
+Issue raised at sbt/sbt#7971.
+
 # Description
 Sample project to illustrate an issue with log levels in commands. This project defines an `sbt` command `logThenFail` which makes 3 log entries using the logger `state.log` then throws a `MessageOnlyException` to fail the command.
 
