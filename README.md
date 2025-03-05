@@ -34,3 +34,5 @@ $ sbt --warn logThenFail
 $ sbt --error logThenFail
 
 ```
+
+This issue does not seem to happen on task as can be seen with the task doing the same thing `logThenFailTask`. When running the task, the log entries display at the appropriate log level.
